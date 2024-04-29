@@ -13,7 +13,7 @@ from xgboost import XGBClassifier
 from sklearn.naive_bayes import GaussianNB
 
 # Load data from CSV file
-data = pd.read_csv(r'C:\Users\Murari\Downloads\code_comm.csv')
+data = pd.read_csv(r'C:\Users\krishna\Downloads\code_comm.csv')
 
 # Assuming the last column is the target variable
 X = data.iloc[:, :-1]
